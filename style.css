@@ -87,7 +87,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #eee;
-    background: url(/blog022.jpg) no-repeat center/cover;
+    background: url(/Captura\ de\ tela\ 2024-11-15\ 190144.png) no-repeat center/cover;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: color;
 }
@@ -187,4 +187,44 @@ i {
     color: #eee;
     padding: 30px;
     text-align: center;
+}
+#team {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+}
+
+.team-photo {
+    width: 150px; /* Tamanho fixo para todas as fotos */
+    height: 150px; /* Tamanho fixo para todas as fotos */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem seja cortada sem distorção */
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #777;
 }
